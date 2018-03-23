@@ -1,0 +1,38 @@
+/*
+Error: Invalid CSS after "@charset ": expected string, was "{"
+        on line 1 of D:\WWW\biyao\sass\zhuce.scss
+
+1: @charset {
+2:   "utf-8"; {
+3:     .waio {
+4:       width: 100%;
+5:       height: 98px;
+6:       border-bottom: 1px solid #ccc;
+
+Backtrace:
+D:\WWW\biyao\sass\zhuce.scss:1
+G:/kaola/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
+G:/kaola/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
+G:/kaola/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1117:in `expr!'
+G:/kaola/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:486:in `charset_directive'
+G:/kaola/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:222:in `special_directive'
+G:/kaola/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:197:in `directive'
+G:/kaola/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:684:in `block_child'
+G:/kaola/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:674:in `block_contents'
+G:/kaola/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:125:in `stylesheet'
+G:/kaola/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:41:in `parse'
+G:/kaola/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
+G:/kaola/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+G:/kaola/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+G:/kaola/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
+G:/kaola/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
+G:/kaola/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+G:/kaola/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+G:/kaola/rubygems/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
+G:/kaola/bin/sass:18:in `load'
+G:/kaola/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@charset \": expected string, was \"{\"\A         on line 1 of D:\WWW\biyao\sass\zhuce.scss\A \A 1: @charset {\A 2:   \"utf-8\"; {\A 3:     .waio {\A 4:       width: 100%;\A 5:       height: 98px;\A 6:       border-bottom: 1px solid #ccc;"; }
